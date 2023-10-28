@@ -25,11 +25,11 @@ An **array** is a fundamental data structure used for storing a **sequence** of 
 
 ### Time Complexity of Basic Operations
 
-- **Access**: \( O(1) \)
-- **Search**: \( O(1) \), \( O(n) \) assuming unsorted array
-- **Insertion**: \( O(1) \) for the end, \( O(n) \) for beginning/middle
-- **Deletion**: \( O(1) \) for the end, \( O(n) \) for beginning/middle
-- **Append**: \( O(1) \) amortized, \( O(n) \) during resizing
+- **Access**: $O(1)$
+- **Search**: $O(1)$, $O(n)$ assuming unsorted array
+- **Insertion**: $O(1)$ for the end, $O(n)$ for beginning/middle
+- **Deletion**: $O(1)$ for the end, $O(n)$ for beginning/middle
+- **Append**: $O(1)$ amortized, $O(n)$ during resizing
 
 ### Code Example: Basic Array Operations
 
@@ -66,7 +66,7 @@ public class ArrayExample {
 
 ### Advantages
 
-- **Speed**: Arrays provide \(O(1)\) access and append operations when appending at a known index (like the end).
+- **Speed**: Arrays provide $O(1)$ access and append operations when appending at a known index (like the end).
 
 - **Cache Performance**: Arrays, with their contiguous memory layout, are efficient for tasks involving sequential data access.
 
@@ -74,7 +74,7 @@ public class ArrayExample {
 
 - **Size Limitations**: Arrays have a fixed size after allocation. Resizing means creating a new array, leading to potential memory overhead or data transfer costs.
 
-- **Mid-Array Changes**: Operations like insertions or deletions are \(O(n)\) due to necessary element shifting.
+- **Mid-Array Changes**: Operations like insertions or deletions are $O(n)$ due to necessary element shifting.
 
 ### Considerations
 
@@ -89,7 +89,7 @@ public class ArrayExample {
 
 ### Answer
 
-**Indexing** refers to accessing specific elements in an array using unique indices, which range from 0 to \(n-1\) for an array of \(n\) elements.
+**Indexing** refers to accessing specific elements in an array using unique indices, which range from 0 to $n-1$ for an array of $n$ elements.
 
 ### Key Concepts
 
@@ -99,13 +99,13 @@ Arrays occupy adjacent memory locations, facilitating fast random access. All el
 
 #### Memory Address Calculation
 
-The memory address of the \(i\)-th element is computed as:
+The memory address of the $i$-th element is computed as:
 
-\[
+$$
 \text{Memory Address}_{i} = P + (\text{Element Size}) \times i
-\]
+$$
 
-Here, \(P\) represents the pointer to the array's first element.
+Here, $P$ represents the pointer to the array's first element.
 
 ### Code Example: Accessing Memory Address
 
@@ -141,7 +141,7 @@ This ordering provides various benefits, such as **optimized search operations**
 
 ### Advantages
 
-- **Efficient Searches**: Sorted arrays are optimized for search operations, especially when using algorithms like Binary Search, which has a \( O(\log n) \) time complexity.
+- **Efficient Searches**: Sorted arrays are optimized for search operations, especially when using algorithms like Binary Search, which has a $O(\log n)$ time complexity.
   
 - **Additional Query Types**: They support other specialized queries, like bisection to find the closest element and range queries to identify elements within a specified range.
 
@@ -149,7 +149,7 @@ This ordering provides various benefits, such as **optimized search operations**
 
 ### Disadvantages
 
-- **Slow Updates**: Insertions and deletions generally require shifting elements, leading to \( O(n) \) time complexity for these operations.
+- **Slow Updates**: Insertions and deletions generally require shifting elements, leading to $O(n)$ time complexity for these operations.
   
 - **Memory Overhead**: The need to maintain the sorted structure can require extra memory, especially during updates.
 
@@ -163,11 +163,11 @@ This ordering provides various benefits, such as **optimized search operations**
 
 ### Time Complexity of Basic Operations
 
-- **Access**: \( O(1) \).
-- **Search**: \( O(1) \) for exact matches, \( O(\log n) \) with binary search for others.
-- **Insertion**: \( O(1) \) for the end, but usually \( O(n) \) to maintain order.
-- **Deletion**: \( O(1) \) for the end, but usually \( O(n) \) to maintain order.
-- **Append**: \( O(1) \) if appending a larger value, but can spike to \( O(n) \) if resizing or inserting in order.
+- **Access**: $O(1)$.
+- **Search**: $O(1)$ for exact matches, $O(\log n)$ with binary search for others.
+- **Insertion**: $O(1)$ for the end, but usually $O(n)$ to maintain order.
+- **Deletion**: $O(1)$ for the end, but usually $O(n)$ to maintain order.
+- **Append**: $O(1)$ if appending a larger value, but can spike to $O(n)$ if resizing or inserting in order.
 
 ---
 
@@ -182,15 +182,15 @@ This ordering provides various benefits, such as **optimized search operations**
 
 - **Adaptive Sizing**: Dynamic arrays adjust their size based on the number of elements, unlike fixed-size arrays.
 - **Contiguous Memory**: Dynamic arrays, like basic arrays, keep elements in adjacent memory locations for efficient indexed access.
-- **Amortized Appending**: Append operations are typically constant time. However, occasional resizing might take longer, but averaged over multiple operations, it's still \(O(1)\) amortized.
+- **Amortized Appending**: Append operations are typically constant time. However, occasional resizing might take longer, but averaged over multiple operations, it's still $O(1)$ amortized.
 
 ### Time Complexity of Basic Operations
 
-- **Access**: \( O(1) \)
-- **Search**: \( O(1) \) for exact matches, \( O(n) \) linearly for others
-- **Insertion**: \( O(1) \) amortized, \( O(n) \) during resizing
-- **Deletion**: \( O(1) \) amortized, \( O(n) \) during shifting or resizing
-- **Append**: \( O(1) \) amortized, \( O(n) \) during resizing
+- **Access**: $O(1)$
+- **Search**: $O(1)$ for exact matches, $O(n)$ linearly for others
+- **Insertion**: $O(1)$ amortized, $O(n)$ during resizing
+- **Deletion**: $O(1)$ amortized, $O(n)$ during shifting or resizing
+- **Append**: $O(1)$ amortized, $O(n)$ during resizing
 
 ### Code Example: Java's 'ArrayList': Simplified  Implementation
 
