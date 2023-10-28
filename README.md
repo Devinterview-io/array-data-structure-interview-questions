@@ -1,30 +1,331 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">
-      Top 21 Arrays interview
-      questions and answers in 2021.
-    </h1> <p data-v-5e9078c0="" align="center"><a data-v-5e9078c0="" href="https://devinterview.io/"><img data-v-5e9078c0="" src="https://source.unsplash.com/collection/52661698/700x350"></a></p> <p data-v-5e9078c0="">
-      You can check all
-      21
-      Arrays interview questions here 👉
-      https://devinterview.io/data/arrays-interview-questions
-    </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. Explain what is an Array?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>An <strong>array</strong> is a collection of <strong>homogeneous</strong> (same type) data items stored in <strong>contiguous memory</strong> locations. For example if an array is of type “int”, it can only store integer elements and cannot allow the elements of other types such as double, float, char etc. The elements of an array are accessed by using an <strong>index</strong>. </p><ul><li><code><i>O</i>(<i>1</i>)</code></li><li><code><i>O</i>(<i>log n</i>)</code></li><li><code><i>O</i>(<i>n</i>)</code></li><li><code><i>O</i>(<i>n log n</i>)</code></li><li><code><i>O</i>(<i>n</i><sup>2</sup>)</code></li><li><code><i>O</i>(<i>2</i><sup>n</sup>)</code></li><li><code><i>O</i>(<i>n!</i>)</code></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://beginnersbook.com/2018/10/data-structure-array/" rel="noreferrer" target="_blank" title="Explain what is an Array? Interview Questions Source To Answer">beginnersbook.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. Name some characteristics of Array Data Structure</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Arrays are: </p><ul><li><strong>Finite (fixed-size)</strong> - An array is finite because it contains only limited number of elements.</li><li><strong>Order</strong> -All the elements are stored one by one , in contiguous  location of computer memory in a linear order and fashion</li><li><strong>Homogenous</strong> - All  the elements of an array are of  same  data types only  and hence  it is termed as collection of homogenous</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="http://codelack.com/array-data-structure/" rel="noreferrer" target="_blank" title="Name some characteristics of Array Data Structure Interview Questions Source To Answer">codelack.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. How do Dynamic Arrays work?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A simple dynamic array can be constructed by <em>allocating an array of fixed-size</em>, typically <em>larger</em> than the number of elements immediately required. The elements of the dynamic array are stored contiguously at the start of the underlying array, and the remaining positions towards the end of the underlying array are reserved, or unused. Elements can be added at the end of a dynamic array in constant time by using the reserved space until this space is completely consumed.</p><p>When all space is consumed, and an additional element is to be added, the underlying fixed-sized array needs to be increased in size. Typically resizing is expensive because you have to allocate a bigger array and copy over all of the elements from the array you have overgrow before we can finally append our item.</p><p>Dynamic arrays memory allocation is language specific. For example in C++ arrays are created on the stack, and have automatic storage duration -- you don't need to manually manage memory, but they get destroyed when the function they're in ends. They necessarily have a fixed size:</p><pre><code>int foo<span class="token cBase">[</span><span class="token cNum">10</span><span class="token cBase">]</span><span class="token cBase">;</span></code></pre><p>Arrays created with operator <code>new[]</code> have <em>dynamic</em> storage duration and are stored on the heap (technically the "free store"). They can have any size, but you need to allocate and free them yourself since they're not part of the stack frame:</p><pre><code>int<span class="token cBase">*</span> foo <span class="token cBase">=</span> <span class="token cVar">new</span> <span class="token class-name">int</span><span class="token cBase">[</span><span class="token cNum">10</span><span class="token cBase">]</span><span class="token cBase">;</span>
-<span class="token cVar">delete</span><span class="token cBase">[</span><span class="token cBase">]</span> foo<span class="token cBase">;</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/2672085/static-array-vs-dynamic-array-in-c" rel="noreferrer" target="_blank" title="How do Dynamic Arrays work? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. What are Dynamic Arrays?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>dynamic array</strong> is an array with a big improvement: <em>automatic resizing</em>.</p><p>One limitation of arrays is that they're <em>fixed</em> size, meaning you need to specify the number of elements your array will hold ahead of time. A dynamic array expands as you add more elements. So you don't need to determine the size ahead of time.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.interviewcake.com/concept/java/dynamic-array" rel="noreferrer" target="_blank" title="What are Dynamic Arrays? Interview Questions Source To Answer">www.interviewcake.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. What is a main difference between an Array and a Dictionary?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Arrays and dictionaries both store collections of data, but differ by <em>how they are accessed</em>. Arrays provide <em>random access</em> of a sequential set of data. Dictionaries (or associative arrays) provide a <em>map</em> from a <em>set of keys</em> to a <em>set of values</em>. </p><ul><li>Arrays store a set of objects (that can be accessed randomly)</li><li>Dictionaries store pairs of objects</li><li>Items in an array are accessed by position (<em>index</em>) (often a number) and hence have an order. </li><li>Items in a dictionary are accessed by <em>key</em> and are unordered.</li></ul><p>This makes array/lists more suitable when you have a group of objects in a set (prime numbers, colors, students, etc.). Dictionaries are better suited for showing relationships between a pair of objects.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/2695024/array-list-vs-dictionary-why-we-have-them-at-first-place" rel="noreferrer" target="_blank" title="What is a main difference between an Array and a Dictionary? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. Name some advantages and disadvantages of Arrays</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Pros:</strong></p><ul><li><strong>Fast lookups</strong>. Retrieving the element at a given index takes <code>O(1)</code> time, regardless of the length of the array.</li><li><strong>Fast appends</strong>. Adding a new element at the end of the array takes <code>O(1)</code> time.</li></ul><p><strong>Cons:</strong></p><ul><li><strong>Fixed size</strong>. You need to specify how many elements you're going to store in your array ahead of time.</li><li><strong>Costly inserts and deletes</strong>. You have to shift the other elements to fill in or close gaps, which takes worst-case <code>O(n)</code> time.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.interviewcake.com/concept/python/array?" rel="noreferrer" target="_blank" title="Name some advantages and disadvantages of Arrays Interview Questions Source To Answer">www.interviewcake.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What is time complexity of basic Array operations?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Array uses continuous memory locations (<strong>space</strong> complexity <code>O(n)</code>) to store the element so <strong>retrieving</strong> of any element will take <code>O(1)</code> time complexity (constant time by using index of the retrieved element). <code>O(1)</code> describes <strong>inserting</strong> at the end of the array. However, if you're inserting into the middle of an array, you have to shift all the elements after that element, so the complexity for insertion in that case is <code>O(n)</code> for arrays. End appending also discounts the case where you'd have to resize an array if it's full.</p><table><thead><tr><th>Operation</th><th>Average Case</th><th>Worst Case</th></tr></thead><tbody><tr><td>Read</td><td><code>O(1)</code></td><td><code>O(1)</code></td></tr><tr><td>Append</td><td><code>O(1)</code></td><td><code>O(1)</code></td></tr><tr><td>Insert</td><td><code>O(n)</code></td><td><code>O(n)</code></td></tr><tr><td>Delete</td><td><code>O(n)</code></td><td><code>O(n)</code></td></tr><tr><td>Search</td><td><code>O(n)</code></td><td><code>O(n)</code></td></tr></tbody></table></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://beginnersbook.com/2018/10/data-structure-array/" rel="noreferrer" target="_blank" title="What is time complexity of basic Array operations? Interview Questions Source To Answer">beginnersbook.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. What does Sparse Array mean?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. How exactly indexing works in Arrays?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. When to use a Linked List over an Array/Array List?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. Compare Array based vs Linked List stack implementations</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is an Associative Array?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What are advantages of Sorted Arrays?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. What are time complexities of sorted array operations?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. What is the advantage of Heaps over Sorted Arrays?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/arrays-interview-questions">all 21 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# ⚫ Arrays in Tech Interviews 2024: 15 Must-Know Questions & Answers
+
+**Arrays** are fundamental building blocks in programming, often forming the basis for many **algorithms** and **data structures**.
+
+Check out our carefully selected list of **basic** and **advanced** Array-related questions and answers to be well-prepared for your tech interviews in 2024.
+
+![Arrays Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FarraysBlogImg.png?alt=media&token=468cacc4-deef-400d-9621-35cfced9e695&_gl=1*1g30s24*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODUwODI3NC4xODUuMS4xNjk4NTA4MzI3LjcuMC4w)
+
+👉🏼 You can also find all answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 1. What is an _Array_?
+
+### Answer
+
+An **array** is a fundamental data structure used for storing a **sequence** of elements that can be accessed via an **index**. 
+
+### Key Characteristics
+
+- **Homogeneity**: All elements are of the same data type.
+- **Contiguous Memory**: Elements are stored in adjacent memory locations for quick access.
+- **Fixed Size**: Arrays are generally static in size, although dynamic arrays exist in modern languages.
+- **Indexing**: Usually zero-based, though some languages use one-based indexing.
+
+### Time Complexity of Basic Operations
+
+- **Access**: \( O(1) \)
+- **Search**: \( O(1) \), \( O(n) \) assuming unsorted array
+- **Insertion**: \( O(1) \) for the end, \( O(n) \) for beginning/middle
+- **Deletion**: \( O(1) \) for the end, \( O(n) \) for beginning/middle
+- **Append**: \( O(1) \) amortized, \( O(n) \) during resizing
+
+### Code Example: Basic Array Operations
+
+Here is the Java code:
+
+```java
+public class ArrayExample {
+    public static void main(String[] args) {
+        // Declare and Initialize Arrays
+        int[] myArray = new int[5];  // Declare an array of size 5
+        int[] initializedArray = {1, 2, 3, 4, 5};  // Direct initialization
+        
+        // Access Elements
+        System.out.println(initializedArray[0]);  // Output: 1
+        
+        // Update Elements
+        initializedArray[2] = 10;  // Modify the third element
+        
+        // Check Array Length
+        int length = initializedArray.length;  // Retrieve array length
+        System.out.println(length);  // Output: 5
+    }
+}
+```
+
+---
+
+
+## 🔹 2. Name some _Advantages_ and _Disadvantages_ of arrays.
+
+### Answer
+
+**Arrays** have very specific **strengths** and **weaknesses**, making them better suited for some applications over others.
+
+### Advantages
+
+- **Speed**: Arrays provide \(O(1)\) access and append operations when appending at a known index (like the end).
+
+- **Cache Performance**: Arrays, with their contiguous memory layout, are efficient for tasks involving sequential data access.
+
+### Disadvantages
+
+- **Size Limitations**: Arrays have a fixed size after allocation. Resizing means creating a new array, leading to potential memory overhead or data transfer costs.
+
+- **Mid-Array Changes**: Operations like insertions or deletions are \(O(n)\) due to necessary element shifting.
+
+### Considerations
+
+- **When to Use**: Arrays are optimal for **known data sizes** and when rapid access or appends are critical. They're popular in numerical algorithms and cache-centric tasks.
+
+- **When to Rethink**: Their static nature and inefficiency for **frequent mid-array changes** make alternatives like linked lists or hash tables sometimes more suitable.
+
+---
+
+
+## 🔹 3. How does _Indexing_ work in arrays?
+
+### Answer
+
+**Indexing** refers to accessing specific elements in an array using unique indices, which range from 0 to \(n-1\) for an array of \(n\) elements.
+
+### Key Concepts
+
+#### Contiguous Memory and Fixed Element Size
+
+Arrays occupy adjacent memory locations, facilitating fast random access. All elements are uniformly sized. For example, a 32-bit integer consumes 4 bytes of memory.
+
+#### Memory Address Calculation
+
+The memory address of the \(i\)-th element is computed as:
+
+\[
+\text{Memory Address}_{i} = P + (\text{Element Size}) \times i
+\]
+
+Here, \(P\) represents the pointer to the array's first element.
+
+### Code Example: Accessing Memory Address
+
+Here is the Python code:
+
+```python
+# Define an array
+arr = [10, 20, 30, 40, 50, 60]
+
+# Calculate memory address of the third element
+element_index = 2
+element_address = arr.__array_interface__['data'][0] + element_index * arr.itemsize
+
+# Retrieve the element value
+import ctypes
+element_value = ctypes.cast(element_address, ctypes.py_object).value
+
+# Output
+print(f"The memory address of the third element is: {element_address}")
+print(f"The value at that memory address is: {element_value}")
+```
+
+---
+
+
+## 🔹 4. What are advantages and disadvantages of _Sorted Arrays_?
+
+### Answer
+
+A **sorted array** is a data structure where elements are stored in a specific, **predetermined sequence**, usually in ascending or descending order.
+
+This ordering provides various benefits, such as **optimized search operations**, at the cost of more complex insertions and deletions.
+
+### Advantages
+
+- **Efficient Searches**: Sorted arrays are optimized for search operations, especially when using algorithms like Binary Search, which has a \( O(\log n) \) time complexity.
+  
+- **Additional Query Types**: They support other specialized queries, like bisection to find the closest element and range queries to identify elements within a specified range.
+
+- **Cache Efficiency**: The contiguous memory layout improves cache utilization, which can lead to faster performance.
+
+### Disadvantages
+
+- **Slow Updates**: Insertions and deletions generally require shifting elements, leading to \( O(n) \) time complexity for these operations.
+  
+- **Memory Overhead**: The need to maintain the sorted structure can require extra memory, especially during updates.
+
+- **Lack of Flexibility**: Sorted arrays are less flexible for dynamic resizing and can be problematic in parallel computing environments.
+
+### Practical Applications
+
+- **Search-Heavy Applications**: Suitable when rapid search operations are more common than updates, such as in financial analytics or in-memory databases.
+- **Static or Semi-Static Data**: Ideal for datasets known in advance or that change infrequently.
+- **Memory Constraints**: They are efficient for small, known datasets that require quick search capabilities.
+
+### Time Complexity of Basic Operations
+
+- **Access**: \( O(1) \).
+- **Search**: \( O(1) \) for exact matches, \( O(\log n) \) with binary search for others.
+- **Insertion**: \( O(1) \) for the end, but usually \( O(n) \) to maintain order.
+- **Deletion**: \( O(1) \) for the end, but usually \( O(n) \) to maintain order.
+- **Append**: \( O(1) \) if appending a larger value, but can spike to \( O(n) \) if resizing or inserting in order.
+
+---
+
+
+## 🔹 5. What are _Dynamic Arrays_?
+
+### Answer
+
+**Dynamic arrays** start with a preset capacity and **automatically resize** as needed. When full, they allocate a larger memory block—often doubling in size—and copy existing elements.
+
+### Key Features
+
+- **Adaptive Sizing**: Dynamic arrays adjust their size based on the number of elements, unlike fixed-size arrays.
+- **Contiguous Memory**: Dynamic arrays, like basic arrays, keep elements in adjacent memory locations for efficient indexed access.
+- **Amortized Appending**: Append operations are typically constant time. However, occasional resizing might take longer, but averaged over multiple operations, it's still \(O(1)\) amortized.
+
+### Time Complexity of Basic Operations
+
+- **Access**: \( O(1) \)
+- **Search**: \( O(1) \) for exact matches, \( O(n) \) linearly for others
+- **Insertion**: \( O(1) \) amortized, \( O(n) \) during resizing
+- **Deletion**: \( O(1) \) amortized, \( O(n) \) during shifting or resizing
+- **Append**: \( O(1) \) amortized, \( O(n) \) during resizing
+
+### Code Example: Java's 'ArrayList': Simplified  Implementation
+
+Here is the Java code:
+
+```java
+import java.util.Arrays;
+
+public class DynamicArray<T> {
+    private Object[] data;
+    private int size = 0;
+    private int capacity;
+
+    public DynamicArray(int initialCapacity) {
+        this.capacity = initialCapacity;
+        data = new Object[initialCapacity];
+    }
+
+    public T get(int index) {
+        return (T) data[index];
+    }
+
+    public void add(T value) {
+        if (size == capacity) {
+            resize(2 * capacity);
+        }
+        data[size++] = value;
+    }
+
+    private void resize(int newCapacity) {
+        Object[] newData = new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
+        capacity = newCapacity;
+    }
+
+    public int size() {
+        return size;
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    public static void main(String[] args) {
+        DynamicArray<Integer> dynArray = new DynamicArray<>(2);
+        dynArray.add(1);
+        dynArray.add(2);
+        dynArray.add(3);  // This will trigger a resize
+        System.out.println("Size: " + dynArray.size());  // Output: 3
+        System.out.println("Element at index 2: " + dynArray.get(2));  // Output: 3
+    }
+}
+```
+
+---
+
+---
+
+## 🔹 6. What is an _Associative Array_ (Dictionary)?
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 7. Explain _Sparse_ and _Dense_ arrays.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 8. What are some pros and cons of _Linked List_ compared to _Arrays_?
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 9. Compare _Array-based_ vs _Linked List_ stack implementations.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 10. What are the advantages of _Heaps_ over _Sorted Arrays_?
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 11. What defines the _Dimensionality_ of an array?
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 12. Compare _Dynamic Arrays_ with _Linked Lists_.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 13. Check the _String_ for _Balanced Parentheses_, using linear time and constant space.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 14. _Merge_ two _Sorted Arrays_ into one Sorted Array.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
+## 🔹 15. Implement three _Stacks_ with one _Array_.
+
+### Answer
+
+👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
