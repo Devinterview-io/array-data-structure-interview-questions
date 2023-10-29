@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Array-related questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Arrays Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FarraysBlogImg.png?alt=media&token=468cacc4-deef-400d-9621-35cfced9e695&_gl=1*1g30s24*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODUwODI3NC4xODUuMS4xNjk4NTA4MzI3LjcuMC4w)
+![Arrays Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/arrays.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698599991&Signature=fj5rByONDDdoYhLW6jPaI7XbFX7rJqtcSqujbE4WlpqQaDWIY5kvRcnmH%2FNcgLOZiFWpnXw8fOQRgTqjqcBtQgJuFb9uRgfekxBLWjBi2I9eQN3sEx8n6%2BaTigKfusmk3aUrih7%2FT8WL0%2FUeOhVvYvplR7AmN3rWHVq9byCaUhV7nDuTFFq4RISajnLRJL0EZ4RSzBmM5FFuWJvz5oTJErBs6Y1Av9e4Ud7DHHVxxhds1EyWeFzlEiwRbXEIDs6ay4J5OYKr18%2Fo%2FjqdhlHYcmuHUwO%2FQZd7pJAP5Gm0%2BReR5DftqT9zPnqehL7mS4IV254Y8jQS63fnn3agQQuKdg%3D%3D)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
 
@@ -57,7 +57,6 @@ public class ArrayExample {
 
 ---
 
-
 ## 🔹 2. Name some _Advantages_ and _Disadvantages_ of arrays.
 
 ### Answer
@@ -83,7 +82,6 @@ public class ArrayExample {
 - **When to Rethink**: Their static nature and inefficiency for **frequent mid-array changes** make alternatives like linked lists or hash tables sometimes more suitable.
 
 ---
-
 
 ## 🔹 3. How does _Indexing_ work in arrays?
 
@@ -130,7 +128,6 @@ print(f"The value at that memory address is: {element_value}")
 
 ---
 
-
 ## 🔹 4. What are advantages and disadvantages of _Sorted Arrays_?
 
 ### Answer
@@ -170,7 +167,6 @@ This ordering provides various benefits, such as **optimized search operations**
 - **Append**: $O(1)$ if appending a larger value, but can spike to $O(n)$ if resizing or inserting in order.
 
 ---
-
 
 ## 🔹 5. What are _Dynamic Arrays_?
 
@@ -249,9 +245,6 @@ public class DynamicArray<T> {
 ```
 
 ---
-
----
-
 ## 🔹 6. What is an _Associative Array_ (Dictionary)?
 
 ### Answer
@@ -329,3 +322,6 @@ public class DynamicArray<T> {
 ### Answer
 
 👉🏼 Check out all 15 answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+
+---
+
