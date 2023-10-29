@@ -1,6 +1,6 @@
 # ⚫ Arrays in Tech Interviews 2024: 15 Must-Know Questions & Answers
 
-**Arrays** are fundamental building blocks in programming, often forming the basis for many **algorithms** and **data structures**.
+**Arrays** are contiguous memory data structures that store elements of the same type, allowing efficient access via indices. They serve as the foundation for many algorithms and data storage tasks. In coding interviews, questions about arrays evaluate a candidate's ability to work with **sequential data storage** and optimize solutions based on the fixed-size nature and direct access properties of arrays.
 
 Check out our carefully selected list of **basic** and **advanced** Array-related questions and answers to be well-prepared for your tech interviews in 2024.
 
