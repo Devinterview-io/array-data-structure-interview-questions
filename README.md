@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Arrays questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Arrays Decorative Image]([https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/arrays.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698609744&Signature=jr4wwtBi0%2FkmYG9ogwnFpG2N6oY1KvhwiDKsLY%2F9XFNBs5Z%2BMes%2F5dO4sfh5B4LXwyh1YLVBU7XZ7RvhOgyz2Sso1CZu9oLODt%2Bf7RXo9Lb%2BOZ7XDsau5tM7c%2FeaNv%2BpGjlgIbOV0x3j9ji26UFGvBIlX9lKp3kHPStjlEFsXjCLP6Afmp62AWR8aTYYPUZDNXPlk61ySGRiGrGs0Eu6DKxqMpN11e283ZVVXoluXoteqHcgG2bYcYCXdAvX0M5sMMiRfek4QV9Qn9Pb1jRKoqLnwkmRQdlsgVcHZqD1w40vp3rF8hgmOzdUCU0cTizi%2F%2Bc2Pvh2MTelRDCTkd98BQ%3D%3D](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Farrays.png?alt=media&token=ee264bab-2584-4d0c-97e5-d101743285df&_gl=1*79gyjf*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA2MzI2LjYwLjAuMA..))
+![Arrays Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Farrays.png?alt=media&token=ee264bab-2584-4d0c-97e5-d101743285df&_gl=1*79gyjf*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA2MzI2LjYwLjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Arrays](https://devinterview.io/dev/arrays-interview-questions)
 
