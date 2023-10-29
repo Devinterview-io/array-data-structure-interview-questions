@@ -2,11 +2,11 @@
 
 **Arrays** are contiguous memory data structures that store elements of the same type, allowing efficient access via indices. They serve as the foundation for many algorithms and data storage tasks. In coding interviews, questions about arrays evaluate a candidate's ability to work with **sequential data storage** and optimize solutions based on the fixed-size nature and direct access properties of arrays.
 
-Check out our carefully selected list of **basic** and **advanced** Array-related questions and answers to be well-prepared for your tech interviews in 2024.
+Check out our carefully selected list of **basic** and **advanced** Arrays questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Arrays Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/arrays.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698599991&Signature=fj5rByONDDdoYhLW6jPaI7XbFX7rJqtcSqujbE4WlpqQaDWIY5kvRcnmH%2FNcgLOZiFWpnXw8fOQRgTqjqcBtQgJuFb9uRgfekxBLWjBi2I9eQN3sEx8n6%2BaTigKfusmk3aUrih7%2FT8WL0%2FUeOhVvYvplR7AmN3rWHVq9byCaUhV7nDuTFFq4RISajnLRJL0EZ4RSzBmM5FFuWJvz5oTJErBs6Y1Av9e4Ud7DHHVxxhds1EyWeFzlEiwRbXEIDs6ay4J5OYKr18%2Fo%2FjqdhlHYcmuHUwO%2FQZd7pJAP5Gm0%2BReR5DftqT9zPnqehL7mS4IV254Y8jQS63fnn3agQQuKdg%3D%3D)
+![Arrays Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/arrays.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698609744&Signature=jr4wwtBi0%2FkmYG9ogwnFpG2N6oY1KvhwiDKsLY%2F9XFNBs5Z%2BMes%2F5dO4sfh5B4LXwyh1YLVBU7XZ7RvhOgyz2Sso1CZu9oLODt%2Bf7RXo9Lb%2BOZ7XDsau5tM7c%2FeaNv%2BpGjlgIbOV0x3j9ji26UFGvBIlX9lKp3kHPStjlEFsXjCLP6Afmp62AWR8aTYYPUZDNXPlk61ySGRiGrGs0Eu6DKxqMpN11e283ZVVXoluXoteqHcgG2bYcYCXdAvX0M5sMMiRfek4QV9Qn9Pb1jRKoqLnwkmRQdlsgVcHZqD1w40vp3rF8hgmOzdUCU0cTizi%2F%2Bc2Pvh2MTelRDCTkd98BQ%3D%3D)
 
-👉🏼 You can also find all answers here: [Devinterview.io - Arrays](https://devinterview.io/data/arrays-interview-questions)
+👉🏼 You can also find all answers here: [Devinterview.io - Arrays](https://devinterview.io/dev/arrays-interview-questions)
 
 ---
 
