@@ -1,5 +1,4 @@
 # 60 Important Array Data Structure Interview Questions
-
 <div>
 <p align="center">
 <a href="https://devinterview.io/questions/data-structures-and-algorithms/">
